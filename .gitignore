@@ -1,0 +1,18 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar arquivos de lock do npm/yarn
+package-lock.json
+yarn.lock
+
+# Ignorar logs
+npm-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
